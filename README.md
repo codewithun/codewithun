@@ -76,21 +76,6 @@ Informatics graduate building reliable backends and keeping networks alive.
 
 ---
 
-## GITHUB CONTRIBUTIONS
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=codewithun&bg_color=0d1117&color=a3a3a3&line=737373&point=fafafa&area_color=737373&title_color=fafafa&area=true&hide_border=true&hide_title=true" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=codewithun&bg_color=ffffff&color=525252&line=737373&point=0a0a0a&area_color=737373&title_color=0a0a0a&area=true&hide_border=true&hide_title=true" alt="Activity graph" width="100%" />
-</picture>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Elanza-48/Elanza-48/main/resources/img/github-contribution-grid-snake.svg" alt="Contribution snake" />
-</div>
-
-<sub><code>FIG. 2.</code> Contribution activity · Source: <a href="https://github.com/codewithun">GitHub</a></sub>
-
----
-
 ## STATS
 
 <div align="center">
