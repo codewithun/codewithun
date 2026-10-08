@@ -26,11 +26,17 @@ Informatics graduate building reliable backends and keeping networks alive.
 
 ## OVERVIEW
 
-<sub>Role</sub>&emsp;&emsp;&emsp;&emsp;&ensp;Backend Developer<br/>
-<sub>Focus</sub>&emsp;&emsp;&emsp;&emsp;&ensp;RESTful APIs · Databases · Computer Networking<br/>
-<sub>Location</sub>&emsp;&emsp;&emsp;&ensp;<a href="https://www.google.com/maps/search/?api=1&query=Semarang%2C%20Indonesia">Semarang, Indonesia</a><br/>
-<sub>Education</sub>&emsp;&emsp;&ensp;Diploma in Informatics, Semarang State Polytechnic (Polines)<br/>
-<sub>Email</sub>&emsp;&emsp;&emsp;&emsp;&ensp;<a href="mailto:untara337@gmail.com">untara337@gmail.com</a>
+<table>
+  <tr>
+    <th align="left" width="150"><sub>FIELD</sub></th>
+    <th align="left"><sub>DETAIL</sub> <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="1400" height="1" alt="" /></th>
+  </tr>
+  <tr><td><b>Role</b></td><td>Backend Developer</td></tr>
+  <tr><td><b>Focus</b></td><td>RESTful APIs · Databases · Computer Networking</td></tr>
+  <tr><td><b>Location</b></td><td><a href="https://www.google.com/maps/search/?api=1&query=Semarang%2C%20Indonesia">Semarang, Indonesia</a></td></tr>
+  <tr><td><b>Education</b></td><td>Diploma in Informatics, Semarang State Polytechnic (Polines)</td></tr>
+  <tr><td><b>Email</b></td><td><a href="mailto:untara337@gmail.com">untara337@gmail.com</a></td></tr>
+</table>
 
 ---
 
