@@ -8,8 +8,6 @@
 
 ---
 
-<img align="left" src="https://github.com/codewithun.png?size=300" width="120" alt="Untara Eka Saputra" hspace="8" />
-
 ### Untara Eka Saputra
 
 Informatics graduate building reliable backends and keeping networks alive.
@@ -17,8 +15,6 @@ Informatics graduate building reliable backends and keeping networks alive.
 <img src="https://img.shields.io/badge/Backend_Developer-0a0a0a?style=flat-square" alt="role" />
 <img src="https://img.shields.io/badge/Networking-0a0a0a?style=flat-square" alt="networking" />
 <img src="https://img.shields.io/badge/Semarang%2C_ID-737373?style=flat-square" alt="location" />
-
-<br clear="left" />
 
 <sub><code>FIG. 1.</code> Profile · Backend Developer &amp; Computer Networking</sub>
 
