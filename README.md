@@ -1,22 +1,28 @@
 <div align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=130&color=0:0d1117,100:2a2a2a&section=header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=130&color=0:ffffff,100:d4d4d4&section=header" alt="" width="100%" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Dancing+Script&weight=700&size=58&duration=2800&pause=100000&repeat=false&color=FAFAFA&center=true&vCenter=true&width=640&height=100&lines=Untara+Eka+Saputra" />
+  <img src="https://readme-typing-svg.demolab.com?font=Dancing+Script&weight=700&size=58&duration=2800&pause=100000&repeat=false&color=0A0A0A&center=true&vCenter=true&width=640&height=100&lines=Untara+Eka+Saputra" alt="Untara Eka Saputra" />
+</picture>
+
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=500&size=20&pause=1500&color=777777&center=true&vCenter=true&width=560&height=50&lines=Hello%2C+I'm+Untara+Eka+Saputra;Backend+Developer+%7C+Networking;Creating+with+code.+Small+details+matter." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=500&size=17&pause=1500&color=777777&center=true&vCenter=true&width=560&height=40&lines=Backend+Developer+%7C+Networking;Building+reliable+backends+%26+keeping+networks+alive;Creating+with+code.+Small+details+matter." alt="Typing SVG" />
 </a>
 
-</div>
+<br/>
 
----
+<img src="https://img.shields.io/badge/Backend_Developer-0a0a0a?style=for-the-badge" alt="role" />&nbsp;<img src="https://img.shields.io/badge/Networking-0a0a0a?style=for-the-badge" alt="networking" />&nbsp;<img src="https://img.shields.io/badge/Semarang%2C_ID-737373?style=for-the-badge" alt="location" />
 
-### Untara Eka Saputra
-
-Informatics graduate building reliable backends and keeping networks alive.
-
-<img src="https://img.shields.io/badge/Backend_Developer-0a0a0a?style=flat-square" alt="role" />
-<img src="https://img.shields.io/badge/Networking-0a0a0a?style=flat-square" alt="networking" />
-<img src="https://img.shields.io/badge/Semarang%2C_ID-737373?style=flat-square" alt="location" />
+<br/><br/>
 
 <sub><code>FIG. 1.</code> Profile · Backend Developer &amp; Computer Networking</sub>
+
+</div>
 
 ---
 
