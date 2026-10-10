@@ -1,9 +1,6 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=130&color=0:0d1117,100:2a2a2a&section=header" />
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=130&color=0:ffffff,100:d4d4d4&section=header" alt="" width="100%" />
-</picture>
+<img src="assets/header.svg" alt="" width="100%" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Dancing+Script&weight=700&size=58&duration=2800&pause=100000&repeat=false&color=FAFAFA&center=true&vCenter=true&width=640&height=100&lines=Untara+Eka+Saputra" />
@@ -50,18 +47,21 @@
 
 <sub><code>01</code> Language &amp; Framework</sub><br/>
 <picture>
+
   <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=laravel,php,python,nextjs,js&theme=dark" />
   <img src="https://skillicons.dev/icons?i=laravel,php,python,nextjs,js&theme=light" alt="languages" />
 </picture>
 
 <sub><code>02</code> Database</sub><br/>
 <picture>
+
   <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=mysql,postgres&theme=dark" />
   <img src="https://skillicons.dev/icons?i=mysql,postgres&theme=light" alt="databases" />
 </picture>
 
 <sub><code>03</code> Cloud &amp; Tools</sub><br/>
 <picture>
+
   <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws,git,github,linux&theme=dark" />
   <img src="https://skillicons.dev/icons?i=aws,git,github,linux&theme=light" alt="tools" />
 </picture>
