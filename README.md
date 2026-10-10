@@ -21,7 +21,7 @@
 
 </div>
 
----
+<img src="assets/scene.svg" alt="Pixel astronaut planting a flag on the moon" width="100%" />
 
 ## OVERVIEW
 
