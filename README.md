@@ -47,21 +47,18 @@
 
 <sub><code>01</code> Language &amp; Framework</sub><br/>
 <picture>
-
   <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=laravel,php,python,nextjs,js&theme=dark" />
   <img src="https://skillicons.dev/icons?i=laravel,php,python,nextjs,js&theme=light" alt="languages" />
 </picture>
 
 <sub><code>02</code> Database</sub><br/>
 <picture>
-
   <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=mysql,postgres&theme=dark" />
   <img src="https://skillicons.dev/icons?i=mysql,postgres&theme=light" alt="databases" />
 </picture>
 
 <sub><code>03</code> Cloud &amp; Tools</sub><br/>
 <picture>
-
   <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws,git,github,linux&theme=dark" />
   <img src="https://skillicons.dev/icons?i=aws,git,github,linux&theme=light" alt="tools" />
 </picture>
@@ -106,7 +103,7 @@
 
 <div align="center">
 
-<a href="https://github.com/codewithun"><b>GitHub ↗</b></a>&emsp;·&emsp;<a href="https://linkedin.com/in/untara-eka-saputra"><b>LinkedIn ↗</b></a>&emsp;·&emsp;<a href="https://instagram.com/untarasaputra"><b>Instagram ↗</b></a>&emsp;·&emsp;<a href="mailto:untara337@gmail.com"><b>Email ↗</b></a>
+<a href="https://github.com/codewithun"><img src="https://img.shields.io/badge/GitHub-0a0a0a?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>&nbsp;<a href="https://linkedin.com/in/untara-eka-saputra"><img src="https://img.shields.io/badge/LinkedIn-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;<a href="https://instagram.com/untarasaputra"><img src="https://img.shields.io/badge/Instagram-0a0a0a?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>&nbsp;<a href="mailto:untara337@gmail.com"><img src="https://img.shields.io/badge/Email-0a0a0a?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
 </div>
 
