@@ -47,9 +47,26 @@
 
 <div align="center">
 
+<sub><code>LANGUAGE &amp; FRAMEWORK</code></sub><br/>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=laravel,php,python,nextjs,js,mysql,postgres,aws,git,github,linux&perline=11&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=laravel,php,python,nextjs,js,mysql,postgres,aws,git,github,linux&perline=11&theme=light" alt="Tech stack" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=laravel,php,python,nextjs,js&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=laravel,php,python,nextjs,js&theme=light" alt="Languages and frameworks" />
+</picture>
+
+<br/>
+
+<sub><code>DATABASE</code></sub><br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=mysql,postgres&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=mysql,postgres&theme=light" alt="Databases" />
+</picture>
+
+<br/>
+
+<sub><code>CLOUD &amp; TOOLS</code></sub><br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws,git,github,linux&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=aws,git,github,linux&theme=light" alt="Cloud and tools" />
 </picture>
 
 </div>
