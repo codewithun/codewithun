@@ -23,24 +23,6 @@
 
 <img src="assets/scene.svg" alt="Pixel astronaut planting a flag on the moon" width="100%" />
 
-## OVERVIEW
-
-<table>
-  <tr><td width="140"><b>Role</b></td><td>Backend Developer</td></tr>
-  <tr><td width="140"><b>Focus</b></td><td>RESTful APIs · Databases · Computer Networking</td></tr>
-  <tr><td width="140"><b>Location</b></td><td><a href="https://www.google.com/maps/search/?api=1&query=Semarang%2C%20Indonesia">Semarang, Indonesia</a></td></tr>
-  <tr><td width="140"><b>Education</b></td><td>Diploma in Informatics, Semarang State Polytechnic (Polines)</td></tr>
-  <tr><td width="140"><b>Email</b></td><td><a href="mailto:untara337@gmail.com">untara337@gmail.com</a></td></tr>
-</table>
-
----
-
-## ABOUT
-
-- Strong foundation in building **RESTful APIs**, managing databases, and troubleshooting technical issues.
-- Always eager to learn new technologies and build **scalable systems**.
-- Comfortable on both sides of the stack: from `Laravel` controllers to `MikroTik` routers.
-
 ---
 
 ## STACK
@@ -75,10 +57,6 @@
 </div>
 
 ---
-
-## CERTIFICATIONS
-
-<img src="assets/certs.svg" alt="Certifications: MTCNA, CCNA, Big Data Analyst Associate, AWS Back-End Academy" width="100%" />
 
 ---
 
