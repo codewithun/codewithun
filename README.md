@@ -49,6 +49,7 @@
 
 <sub><code>LANGUAGE &amp; FRAMEWORK</code></sub><br/>
 <picture>
+
   <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=laravel,php,python,nextjs,js&theme=dark" />
   <img src="https://skillicons.dev/icons?i=laravel,php,python,nextjs,js&theme=light" alt="Languages and frameworks" />
 </picture>
@@ -57,6 +58,7 @@
 
 <sub><code>DATABASE</code></sub><br/>
 <picture>
+
   <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=mysql,postgres&theme=dark" />
   <img src="https://skillicons.dev/icons?i=mysql,postgres&theme=light" alt="Databases" />
 </picture>
@@ -65,6 +67,7 @@
 
 <sub><code>CLOUD &amp; TOOLS</code></sub><br/>
 <picture>
+
   <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws,git,github,linux&theme=dark" />
   <img src="https://skillicons.dev/icons?i=aws,git,github,linux&theme=light" alt="Cloud and tools" />
 </picture>
@@ -75,10 +78,7 @@
 
 ## CERTIFICATIONS
 
-**MTCNA** — <sub>MikroTik Certified Network Associate</sub><br/>
-**CCNA** — <sub>Cisco Certified Network Associate</sub><br/>
-**Big Data Analyst Associate** — <sub>Data analytics</sub><br/>
-**AWS Back-End Academy** — <sub>Cloud &amp; back-end development</sub>
+<img src="assets/certs.svg" alt="Certifications: MTCNA, CCNA, Big Data Analyst Associate, AWS Back-End Academy" width="100%" />
 
 ---
 
