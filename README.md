@@ -45,37 +45,14 @@
 
 ## STACK
 
-<table>
-  <tr>
-    <td valign="top" width="50%">
-      <sub><code>01</code> Language &amp; Framework</sub><br/><br/>
-      <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=laravel,php,python,nextjs,js&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=laravel,php,python,nextjs,js&theme=light" alt="languages" />
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=laravel,php,python,nextjs,js,mysql,postgres,aws,git,github,linux&perline=11&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=laravel,php,python,nextjs,js,mysql,postgres,aws,git,github,linux&perline=11&theme=light" alt="Tech stack" />
 </picture>
-    </td>
-    <td valign="top" width="50%">
-      <sub><code>02</code> Database</sub><br/><br/>
-      <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=mysql,postgres&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=mysql,postgres&theme=light" alt="databases" />
-</picture>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <sub><code>03</code> Cloud &amp; Tools</sub><br/><br/>
-      <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws,git,github,linux&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=aws,git,github,linux&theme=light" alt="tools" />
-</picture>
-    </td>
-    <td valign="top">
-      <sub><code>04</code> Networking</sub><br/><br/>
-      <code>MikroTik</code> <code>Cisco</code> <code>Routing &amp; Switching</code> <code>Troubleshooting</code>
-    </td>
-  </tr>
-</table>
+
+</div>
 
 ---
 
