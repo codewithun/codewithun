@@ -45,32 +45,37 @@
 
 ## STACK
 
-<sub><code>01</code> Language &amp; Framework</sub>
-
-<img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
-<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Next.js-0a0a0a?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-
-<sub><code>02</code> Database</sub>
-
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-
-<sub><code>03</code> Cloud &amp; Tools</sub>
-
-<img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-
-<sub><code>04</code> Networking</sub>
-
-<img src="https://img.shields.io/badge/MikroTik-293239?style=for-the-badge&logo=mikrotik&logoColor=white" alt="MikroTik" />
-<img src="https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco" />
-<img src="https://img.shields.io/badge/Routing_%26_Switching-737373?style=for-the-badge&logo=gnometerminal&logoColor=white" alt="Routing &amp; Switching" />
-<img src="https://img.shields.io/badge/Troubleshooting-737373?style=for-the-badge&logo=wireshark&logoColor=white" alt="Troubleshooting" />
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <sub><code>01</code> Language &amp; Framework</sub><br/><br/>
+      <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=laravel,php,python,nextjs,js&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=laravel,php,python,nextjs,js&theme=light" alt="languages" />
+</picture>
+    </td>
+    <td valign="top" width="50%">
+      <sub><code>02</code> Database</sub><br/><br/>
+      <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=mysql,postgres&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=mysql,postgres&theme=light" alt="databases" />
+</picture>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <sub><code>03</code> Cloud &amp; Tools</sub><br/><br/>
+      <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws,git,github,linux&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=aws,git,github,linux&theme=light" alt="tools" />
+</picture>
+    </td>
+    <td valign="top">
+      <sub><code>04</code> Networking</sub><br/><br/>
+      <code>MikroTik</code> <code>Cisco</code> <code>Routing &amp; Switching</code> <code>Troubleshooting</code>
+    </td>
+  </tr>
+</table>
 
 ---
 
