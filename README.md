@@ -58,25 +58,13 @@
 
 ---
 
----
-
 ## STATS
+
+<img src="assets/stats.svg" alt="GitHub stats: contributions, streaks, stats and top languages" width="100%" />
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=codewithun&hide_border=true&background=0d1117&ring=737373&fire=fafafa&currStreakNum=fafafa&sideNums=fafafa&currStreakLabel=a3a3a3&sideLabels=a3a3a3&dates=737373&card_width=830" />
-  <img src="https://streak-stats.demolab.com?user=codewithun&hide_border=true&background=ffffff&ring=737373&fire=0a0a0a&currStreakNum=0a0a0a&sideNums=0a0a0a&currStreakLabel=525252&sideLabels=525252&dates=737373&card_width=830" alt="GitHub streak" width="100%" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=codewithun&show_icons=true&hide_border=true&bg_color=0d1117&title_color=fafafa&text_color=a3a3a3&icon_color=737373" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=codewithun&show_icons=true&hide_border=true&bg_color=ffffff&title_color=0a0a0a&text_color=525252&icon_color=737373" alt="GitHub stats" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=codewithun&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=fafafa&text_color=a3a3a3" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=codewithun&layout=compact&langs_count=8&hide_border=true&bg_color=ffffff&title_color=0a0a0a&text_color=525252" alt="Top languages" />
-</picture>
+<sub><code>FIG. 2.</code> GitHub activity · auto-updated from <a href="https://github.com/codewithun">@codewithun</a></sub>
 
 </div>
 
