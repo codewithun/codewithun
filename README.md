@@ -51,7 +51,6 @@
 
 <div align="center">
 
-<a href="https://github.com/codewithun"><img src="assets/social-github.svg" width="120" alt="GitHub" /></a>
 <a href="https://linkedin.com/in/untara-eka-saputra"><img src="assets/social-linkedin.svg" width="120" alt="LinkedIn" /></a>
 <a href="https://instagram.com/untarasaputra"><img src="assets/social-instagram.svg" width="120" alt="Instagram" /></a>
 <a href="mailto:untara337@gmail.com"><img src="assets/social-email.svg" width="120" alt="Email" /></a>
