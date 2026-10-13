@@ -74,7 +74,9 @@
 
 <div align="center">
 
-<a href="https://github.com/codewithun"><img src="https://img.shields.io/badge/GitHub-0a0a0a?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>&nbsp;<a href="https://linkedin.com/in/untara-eka-saputra"><img src="https://img.shields.io/badge/LinkedIn-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;<a href="https://instagram.com/untarasaputra"><img src="https://img.shields.io/badge/Instagram-0a0a0a?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>&nbsp;<a href="mailto:untara337@gmail.com"><img src="https://img.shields.io/badge/Email-0a0a0a?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://linkedin.com/in/untara-eka-saputra"><img src="assets/social-linkedin.svg" width="120" alt="LinkedIn" /></a>
+<a href="https://instagram.com/untarasaputra"><img src="assets/social-instagram.svg" width="120" alt="Instagram" /></a>
+<a href="mailto:untara337@gmail.com"><img src="assets/social-email.svg" width="120" alt="Email" /></a>
 
 </div>
 
