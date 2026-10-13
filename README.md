@@ -29,30 +29,7 @@
 
 <div align="center">
 
-<sub><code>LANGUAGE &amp; FRAMEWORK</code></sub><br/>
-<picture>
-
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=laravel,php,python,nextjs,js&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=laravel,php,python,nextjs,js&theme=light" alt="Languages and frameworks" />
-</picture>
-
-<br/>
-
-<sub><code>DATABASE</code></sub><br/>
-<picture>
-
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=mysql,postgres&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=mysql,postgres&theme=light" alt="Databases" />
-</picture>
-
-<br/>
-
-<sub><code>CLOUD &amp; TOOLS</code></sub><br/>
-<picture>
-
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws,git,github,linux&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=aws,git,github,linux&theme=light" alt="Cloud and tools" />
-</picture>
+<img src="assets/stack.svg" width="480" alt="Tech stack: Laravel, PHP, Python, Next.js, JavaScript, MySQL, PostgreSQL, AWS, Git, GitHub, Linux" />
 
 </div>
 
@@ -74,6 +51,7 @@
 
 <div align="center">
 
+<a href="https://github.com/codewithun"><img src="assets/social-github.svg" width="120" alt="GitHub" /></a>
 <a href="https://linkedin.com/in/untara-eka-saputra"><img src="assets/social-linkedin.svg" width="120" alt="LinkedIn" /></a>
 <a href="https://instagram.com/untarasaputra"><img src="assets/social-instagram.svg" width="120" alt="Instagram" /></a>
 <a href="mailto:untara337@gmail.com"><img src="assets/social-email.svg" width="120" alt="Email" /></a>
