@@ -23,7 +23,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate assets/stats.svg
+      - name: Generate assets/stats.svg and assets/hero.svg
         env:
           GH_USER: ${{ github.repository_owner }}
           # Opsional: isi secret GH_STATS_TOKEN (PAT, scope read:user) agar kontribusi
@@ -35,7 +35,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats.svg
+          git add assets/stats.svg assets/hero.svg
           if git diff --cached --quiet; then
             echo "No changes"
           else

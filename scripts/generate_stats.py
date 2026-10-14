@@ -20,6 +20,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 TEMPLATE = Path(__file__).with_name("stats.template.svg")
 OUT = ROOT / "assets" / "stats.svg"
+HERO_TEMPLATE = Path(__file__).with_name("hero.template.svg")
+HERO_OUT = ROOT / "assets" / "hero.svg"
 API = "https://api.github.com/graphql"
 
 PROFILE_Q = """
@@ -174,8 +176,8 @@ def lang_rows(langs):
     return "".join(out) or '<text class="m" x="492" y="344" font-size="14">No language data yet</text>'
 
 
-def render(values):
-    svg = TEMPLATE.read_text(encoding="utf-8")
+def render(values, template=None):
+    svg = (template or TEMPLATE).read_text(encoding="utf-8")
     for k, v in values.items():
         svg = svg.replace("{{" + k + "}}", str(v))
     return svg
@@ -191,6 +193,7 @@ def main():
         values = dict(TOTAL=dash, TOTAL_RANGE="waiting for first update", LONG=dash, LONG_RANGE="",
                       CUR=dash, CUR_RANGE="", RING=0, STARS=dash, COMMITS=dash, PRS=dash, ISSUES=dash,
                       CONTRIB=dash, UPDATED=updated, LANGS=lang_rows({}))
+        hero_values = dict(CUR=dash, CUR_UNIT="days", TODAY=dash)
     else:
         if "--mock" in args:
             import random
@@ -222,11 +225,18 @@ def main():
             RING=f"{ring:.1f}", STARS=f"{data['stars']:,}", COMMITS=f"{data['commits']:,}",
             PRS=f"{data['prs']:,}", ISSUES=f"{data['issues']:,}", CONTRIB=f"{data['contrib']:,}",
             UPDATED=updated, LANGS=lang_rows(data["langs"]))
+        hero_values = dict(CUR=f"{cur:,}", CUR_UNIT="day" if cur == 1 else "days",
+                           TODAY=f"{data['days'].get(today.isoformat(), 0):,}")
 
     out = Path(os.environ.get("STATS_OUT", OUT))
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(render(values), encoding="utf-8")
     print(f"wrote {out}")
+
+    hero_out = Path(os.environ.get("HERO_OUT", HERO_OUT))
+    hero_out.parent.mkdir(parents=True, exist_ok=True)
+    hero_out.write_text(render(hero_values, HERO_TEMPLATE), encoding="utf-8")
+    print(f"wrote {hero_out}")
 
 
 if __name__ == "__main__":
