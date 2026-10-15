@@ -39,6 +39,9 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
+            # new image URL each time, so GitHub's image cache fetches the fresh SVGs
+            sed -i -E "s#(assets/(hero|stats|footer)\.svg)\?v=[0-9]+#\1?v=$(date +%s)#g" README.md
+            git add README.md
             git commit -m "chore: update stats"
             git push
           fi
