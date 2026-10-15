@@ -28,6 +28,7 @@
 
 <div align="center">
 
+<a href="https://github.com/codewithun"><img src="assets/social-github.svg" width="120" alt="GitHub" /></a>
 <a href="https://linkedin.com/in/untara-eka-saputra"><img src="assets/social-linkedin.svg" width="120" alt="LinkedIn" /></a>
 <a href="https://instagram.com/untarasaputra"><img src="assets/social-instagram.svg" width="120" alt="Instagram" /></a>
 <a href="mailto:untara337@gmail.com"><img src="assets/social-email.svg" width="120" alt="Email" /></a>
@@ -36,8 +37,7 @@
 
 ---
 
-<div align="center">
+<img src="assets/footer.svg" alt="Number of people who viewed this GitHub profile, with a pixel astronaut waving goodbye next to a flag and a spaceship." width="100%" />
 
-<sub><code>untara eka saputra</code> · crafted with care · <img src="https://komarev.com/ghpvc/?username=codewithun&label=views&color=737373&style=flat-square" alt="views" /></sub>
-
-</div>
+<!-- Hidden 1x1 counter: each profile visit loads it once. The number shown in the footer is read from the same counter by the GitHub Action. -->
+<img src="https://komarev.com/ghpvc/?username=codewithun&label=Views&style=flat" width="1" height="1" alt="" />

@@ -13,15 +13,22 @@ import datetime as dt
 import html
 import json
 import os
+import re
 import sys
 import urllib.request
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import pixelfont
 
 ROOT = Path(__file__).resolve().parent.parent
 TEMPLATE = Path(__file__).with_name("stats.template.svg")
 OUT = ROOT / "assets" / "stats.svg"
 HERO_TEMPLATE = Path(__file__).with_name("hero.template.svg")
 HERO_OUT = ROOT / "assets" / "hero.svg"
+FOOTER_TEMPLATE = Path(__file__).with_name("footer.template.svg")
+FOOTER_OUT = ROOT / "assets" / "footer.svg"
+VIEWS_STATE = ROOT / "data" / "views.json"
 API = "https://api.github.com/graphql"
 
 PROFILE_Q = """
@@ -183,6 +190,47 @@ def render(values, template=None):
     return svg
 
 
+
+def fetch_views(user):
+    """Read the profile-view counter (komarev) and return the number of REAL views.
+
+    Every request to the counter adds +1 to it, including ours. We remember how many
+    times we asked (data/views.json) and subtract that, so only visitors are counted.
+    Returns the last known value if the counter cannot be reached.
+    """
+    state = {"fetches": 0, "last": None}
+    if VIEWS_STATE.exists():
+        try:
+            state.update(json.loads(VIEWS_STATE.read_text()))
+        except ValueError:
+            pass
+    url = f"https://komarev.com/ghpvc/?username={user}&label=Views&style=flat"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "astronaut-stats-generator"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            svg = r.read().decode("utf-8", "replace")
+    except Exception as exc:  # network problem: keep the previous number
+        print(f"views: could not reach counter ({exc}); using last value {state['last']}")
+        VIEWS_STATE.parent.mkdir(parents=True, exist_ok=True)
+        VIEWS_STATE.write_text(json.dumps(state))   # file must exist for the workflow's git add
+        return state["last"]
+    state["fetches"] += 1          # this request was counted by the service too
+    m = re.search(r"<title>([^<]*)</title>", svg)
+    nums = re.findall(r"\d[\d,]*", m.group(1) if m else svg)
+    if nums:
+        raw = int(nums[-1].replace(",", ""))
+        state["last"] = max(raw - state["fetches"], 0)
+    VIEWS_STATE.parent.mkdir(parents=True, exist_ok=True)
+    VIEWS_STATE.write_text(json.dumps(state))
+    return state["last"]
+
+
+def render_footer(views):
+    text = "--" if views is None else f"{views:,}"
+    svg = FOOTER_TEMPLATE.read_text(encoding="utf-8")
+    return svg.replace("{{VIEWS_SVG}}", pixelfont.views_group(text))
+
+
 def main():
     args = set(sys.argv[1:])
     today = dt.datetime.now(dt.timezone.utc).date()
@@ -194,6 +242,7 @@ def main():
                       CUR=dash, CUR_RANGE="", RING=0, STARS=dash, COMMITS=dash, PRS=dash, ISSUES=dash,
                       CONTRIB=dash, UPDATED=updated, LANGS=lang_rows({}))
         hero_values = dict(CUR=dash, CUR_UNIT="days", TODAY=dash)
+        views = None
     else:
         if "--mock" in args:
             import random
@@ -205,6 +254,7 @@ def main():
                 d += dt.timedelta(days=1)
             for k in range(12):
                 days[(today - dt.timedelta(days=k)).isoformat()] = random.randint(1, 5)
+            views = 12481
             data = dict(stars=17, commits=1243, prs=58, issues=9, contrib=14, days=days, created="2023-03-01",
                         langs={"PHP": [52000, "#4F5D95"], "JavaScript": [31000, "#f1e05a"],
                                "Python": [24000, "#3572A5"], "Blade": [17000, "#f7523f"], "TypeScript": [9000, "#3178c6"]})
@@ -214,6 +264,7 @@ def main():
             if not user or not token:
                 sys.exit("Set GH_USER and GH_TOKEN (or GITHUB_TOKEN) first.")
             data = fetch(user, token)
+            views = fetch_views(user)
 
         longest, l0, l1, cur, c0, c1 = streaks(data["days"], today)
         total = sum(data["days"].values())
@@ -237,6 +288,11 @@ def main():
     hero_out.parent.mkdir(parents=True, exist_ok=True)
     hero_out.write_text(render(hero_values, HERO_TEMPLATE), encoding="utf-8")
     print(f"wrote {hero_out}")
+
+    footer_out = Path(os.environ.get("FOOTER_OUT", FOOTER_OUT))
+    footer_out.parent.mkdir(parents=True, exist_ok=True)
+    footer_out.write_text(render_footer(views), encoding="utf-8")
+    print(f"wrote {footer_out}")
 
 
 if __name__ == "__main__":
