@@ -34,7 +34,7 @@
 
 </div>
 
---
+---
 
 <img src="assets/footer.svg?v=1792753399" alt="Number of people who viewed this GitHub profile, with a pixel astronaut waving goodbye next to a flag and a spaceship." width="100%" />
 
